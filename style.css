@@ -30,6 +30,94 @@
 
 }
 
+/* HOTHOLIDAYS TITLE CARD */
+
+.logo-hotHoliday {
+    background: url("assets/images/summer.jpg") fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.title-hotHoliday {
+    font-family: 'Patua One', cursive;
+    font-weight: 200;
+    font-size: 10vw;
+    text-align: center;
+    padding: 10% 10%;
+    color: black;
+    -webkit-text-stroke: 1px white;
+}
+
+/* WINTERHIDEAWAY TITLE CARD */
+
+.logo-winterHideaway {
+    background: url("assets/images/winter.jpg") fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.title-winterHideaway {
+    font-family: 'Patua One', cursive;
+    font-weight: 200;
+    font-size: 10vw;
+    text-align: center;
+    padding: 10% 10%;
+    color: black;
+    text-shadow: 4px 4px 20px #000;
+}
+
+/* CITYBREAK TITLE CARD */
+
+.logo-cityBreak {
+    background: url("assets/images/city.jpg") fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.title-cityBreak {
+    font-family: 'Patua One', cursive;
+    font-weight: 200;
+    font-size: 10vw;
+    text-align: center;
+    padding: 10% 10%;
+    color: black;
+    text-shadow: 4px 4px 20px #000;
+}
+
+/* WILDLIFEESCAPE TITLE CARD */
+
+.logo-wildlifeEscape {
+    background: url("assets/images/camping.jpg") fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 200px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.title-wildlifeEscape {
+    font-family: 'Patua One', cursive;
+    font-weight: 200;
+    font-size: 10vw;
+    text-align: center;
+    padding: 10% 5%;
+    color: black;
+    -webkit-text-stroke: 1px white;
+}
+
  /* HOMEPAGE PICTURE CARDS */
 
 .menuItem {
@@ -201,3 +289,51 @@
     background-color: black;
 }
 
+/* MAPS */
+
+ #map {
+   width: 100%;
+   height: 400px;
+   border: 3px solid #000;
+
+ }
+
+.map {
+    display: inline-block;
+}
+
+.mapContainer {
+    text-align: center;
+}
+
+.contentStringImage {
+    background: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    border: 2px solid black;
+    margin-bottom: 5px;
+}
+
+.contentStringImageContainer {
+    display: block;
+    max-height: 
+}
+
+.gm-style img {
+    max-width: 570px;
+}
+
+.contentStringText {
+    max-width: 570px;
+}
+.contentStringText2 {
+    max-width: 570px;
+    overflow-wrap: break-word;
+}
+
+
+@media (max-width: 1160px) {
+    .gm-style img {
+       width: 100%
+    }
+}
