@@ -33,7 +33,7 @@
 /* HOTHOLIDAYS TITLE CARD */
 
 .logo-hotHoliday {
-    background: url("assets/images/summer.jpg") fixed;
+    background: url("assets/images/titlecards/summer.jpg") fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,8 +55,8 @@
 /* WINTERHIDEAWAY TITLE CARD */
 
 .logo-winterHideaway {
-    background: url("assets/images/winter.jpg") fixed;
-    background-position: top;
+    background: url("assets/images/titlecards/winter2.jpg") fixed;
+    background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
     min-height: 200px;
@@ -77,7 +77,7 @@
 /* CITYBREAK TITLE CARD */
 
 .logo-cityBreak {
-    background: url("assets/images/city.jpg") fixed;
+    background: url("assets/images/titlecards/city.jpg") fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +99,7 @@
 /* WILDLIFEESCAPE TITLE CARD */
 
 .logo-wildlifeEscape {
-    background: url("assets/images/camping.jpg") fixed;
+    background: url("assets/images/titlecards/camping.jpg") fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,6 +217,7 @@
     text-align: center;
     width: 100%;
     height: 10vh;
+    padding-top: 15px;
 
 }
 
@@ -293,9 +294,9 @@
 
  #map {
    width: 100%;
-   height: 400px;
+   height: 600px;
    border: 3px solid #000;
-
+   margin-bottom: 80px;
  }
 
 .map {
@@ -331,9 +332,84 @@
     overflow-wrap: break-word;
 }
 
-
 @media (max-width: 1160px) {
     .gm-style img {
        width: 100%
     }
+}
+
+@media (max-height: 700px) {
+    #map {
+        height: 500px;
+    }
+}
+
+.mapContainer {
+    width: 100vw;
+    background-color: #FFFACD;
+    margin: 0;
+    padding: 0;
+}
+
+.mapSection {
+    margin: 0;
+    padding: 0;
+}
+
+.wildlifeMap-heading {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: 'Patua One', cursive;
+    font-size: 6vw;
+    color: black;
+    text-shadow: 0px 0px 5px #FFF;
+}
+
+.mapContainerWildlife {
+    width: 100vw;
+    background: url(assets/images/mapbackground/wildlifeBackground.jpg) fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.mapContainerCity {
+    width: 100vw;
+    background: url(assets/images/mapbackground/cityBackground.jpg) fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.mapContainerHot {
+    width: 100vw;
+    background: url(assets/images/mapbackground/hotBackground.jpg) fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.mapContainerWinter {
+    width: 100vw;
+    background: url(assets/images/mapbackground/winterBackground.jpg) fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.64);
 }
