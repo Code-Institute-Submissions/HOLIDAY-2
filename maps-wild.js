@@ -72,10 +72,16 @@ function initMap() {
         'Spectacular waterfalls and ancient broadleaved woodland contrast with the scattered remains of former mine workings' +
         'and other rural industries which remind us of the area’s rich industrial heritage. ' +
         '<p class="contentStringText2">Attribution: Yorkshire Dales National Park, <a href="https://www.yorkshiredales.org.uk/about/about-the-dales/" target="_blank">https://www.yorkshiredales.org.uk/about/about-the-dales/</a></p>' +
-        '<p class="contentStringText2">Photo Credit: <a href="https://www.lakedistrict.gov.uk/visiting/webcams-videos-and-photos/freephotos" target="_blank">https://www.lakedistrict.gov.uk/visiting/webcams-videos-and-photos/freephotos</a></p>' +
-        '<div class="contentStringImageContainer"><img src="#" class="contentStringImage">' +
-        '<img src="#" class="contentStringImage"><img src="#" class="contentStringImage">' +
-        '<img src="#" class="contentStringImage"></div>'
+        '<p class="contentStringText2">Photo Credit: <a href="https://photos.yorkshiredales.org.uk/" target="_blank">https://photos.yorkshiredales.org.uk/</a></p>' +
+        '<div class="contentStringImageContainer">' +
+        '<img src="assets/images/wildmaps/yorkdales/strid.jpg" class="contentStringImage">' +
+        '<p class="contentString2">Image Credit: Strid by Andy Kay </p>' +
+    '<img src="assets/images/wildmaps/yorkdales/barn.jpg" class="contentStringImage">' +
+        '<p class="contentString2">Image Credit: Barn by Andy Kay </p>' +
+    '<img src="assets/images/wildmaps/yorkdales/meadow.jpg" class="contentStringImage">' +
+        '<p class="contentString2">Image Credit: Meadow by Andy Kay </p>' +
+    '<img src="assets/images/wildmaps/yorkdales/malham.jpg" class="contentStringImage"></div>' +
+    '<p class="contentString2">Image Credit: Malham_Tarn by Dan Cook </p>' +
     '</div>' +
         '</div>';
 

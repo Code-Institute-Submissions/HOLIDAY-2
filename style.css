@@ -317,7 +317,6 @@
 
 .contentStringImageContainer {
     display: block;
-    max-height: 
 }
 
 .gm-style img {
@@ -326,6 +325,7 @@
 
 .contentStringText {
     max-width: 570px;
+    padding: 0 10px
 }
 .contentStringText2 {
     max-width: 570px;
@@ -414,4 +414,44 @@
     background-color: rgba(0, 0, 0, 0.64);
 }
 
-/* NAV BAR */
+/* CARDS */
+
+.cardContainer {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    background-color:#4a4a4f;
+}
+.cardminiContainer {
+    max-width: 40vw;
+    float: left;
+    margin-left: 2.5vw;
+    margin-right: 2.5vw;
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 0;
+    box-shadow: 2px 2px 10px black;
+}
+
+@media (max-width: 1000px) {
+    .cardminiContainer {
+        max-width: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.cardImage {
+    background: fixed;
+    background-position: bottom;
+    background-repeat: no-repeat;
+}
+
+.carousel-inner {
+    max-width: 570px;
+}
+.carousel-control-next-icon,
+ .carousel-control-prev-icon {
+     padding-top: 50px;
+}
