@@ -33,7 +33,7 @@
 /* HOTHOLIDAYS TITLE CARD */
 
 .logo-hotHoliday {
-    background: url("assets/images/titlecards/summer.jpg") fixed;
+    background: url("assets/images/summer.jpg") fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,7 +55,7 @@
 /* WINTERHIDEAWAY TITLE CARD */
 
 .logo-winterHideaway {
-    background: url("assets/images/titlecards/winter2.jpg") fixed;
+    background: url("assets/images/winter2.jpg") fixed;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,7 +77,7 @@
 /* CITYBREAK TITLE CARD */
 
 .logo-cityBreak {
-    background: url("assets/images/titlecards/city.jpg") fixed;
+    background: url("assets/images/city.jpg") fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -99,7 +99,7 @@
 /* WILDLIFEESCAPE TITLE CARD */
 
 .logo-wildlifeEscape {
-    background: url("assets/images/titlecards/camping.jpg") fixed;
+    background: url("assets/images/camping.jpg") fixed;
     background-position: top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -130,7 +130,7 @@
 }
 
 .summer {
-    background: url(assets/images/summer.jpg) fixed;
+    background: url("assets/images/summer.jpg") fixed;
     max-height: 25vh;
     background-position: left;
     background-repeat: no-repeat;
@@ -140,7 +140,7 @@
 }
 
 .winter {
-    background: url(assets/images/winter.jpg) fixed;
+    background: url("assets/images/winter.jpg") fixed;
     max-height: 25vh;
     background-position: left;
     background-repeat: no-repeat;
@@ -150,7 +150,7 @@
 }
 
 .city {
-    background: url(assets/images/city.jpg) fixed;
+    background: url("assets/images/city.jpg") fixed;
     max-height: 25vh;
     background-position: left;
     background-repeat: no-repeat;
@@ -160,7 +160,7 @@
 }
 
 .camping {
-    background: url(assets/images/camping.jpg) fixed;
+    background: url("assets/images/camping.jpg") fixed;
     max-height: 25vh;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -413,3 +413,5 @@
     width: 100%;
     background-color: rgba(0, 0, 0, 0.64);
 }
+
+/* NAV BAR */
