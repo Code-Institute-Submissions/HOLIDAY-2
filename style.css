@@ -127,7 +127,7 @@
 }
 
 .summer {
-    background: url("assets/images/summer.jpg") fixed;
+    background: url("assets/images/summer.jpg") ;
     max-height: 25vh;
     background-position: left;
     background-repeat: no-repeat;
@@ -137,7 +137,7 @@
 }
 
 .winter {
-    background: url("assets/images/winter.jpg") fixed;
+    background: url("assets/images/winter.jpg") ;
     max-height: 25vh;
     background-position: left;
     background-repeat: no-repeat;
@@ -147,7 +147,7 @@
 }
 
 .city {
-    background: url("assets/images/city.jpg") fixed;
+    background: url("assets/images/city.jpg") ;
     max-height: 25vh;
     background-position: left;
     background-repeat: no-repeat;
@@ -157,7 +157,7 @@
 }
 
 .camping {
-    background: url("assets/images/camping.jpg") fixed;
+    background: url("assets/images/camping.jpg") ;
     max-height: 25vh;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -206,27 +206,6 @@
     font-family: 'Patua One', cursive;
 }
 
-.h-contact {
-    position: absolute;
-    color: black;
-    font-size: 6vw;
-    font-family: 'Patua One', cursive;
-    text-align: center;
-    width: 100%;
-    height: 10vh;
-    padding-top: 15px;
-
-}
-
-.contact {
-    background-color: #4a4a4f;
-    height: 10vh;
-    width: 100%;
-    color: black;
-    text-decoration: none;
-    text-align: center;
-}
-
 .menuItem-overlay-summer,
 .menuItem-overlay-winter,
 .menuItem-overlay-city,
@@ -234,7 +213,7 @@
     z-index: -2;
     top: 0;
     left: 0; 
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.5);
     height: 100%;
     width: 100%;
 }
@@ -423,28 +402,34 @@
     width: 100vw;
     background-color:#4a4a4f;
 }
-.cardminiContainer,
-.cardminiContainer2,
-.cardminiContainer3 {
-    float: left; width: 45%; 
+.cardminiContainer {
+    float: left; width: 40%; 
     text-align: center;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+    margin-left: 5%;
+    margin-right: 5%;
     border: 2px solid black;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 0;
     box-shadow: 4px 4px 20px black;
+    
 }
 
 @media (max-width: 1130px) {
     .cardminiContainer {
         width: 55%;
         margin-left: auto;
-        margin-right: auto;
+        margin-right: auto; }
+        .carousel-inner {
+    max-height: 470px;}
+    .cardImage {
+max-height: 470px;
+    }
     }
 }
-
+.carousel-inner {
+    max-height: 315px;
+}
 @media (max-width: 800px) {
     .cardminiContainer {
         width: 80%;
@@ -452,10 +437,12 @@
 }
 
 .cardImage {
-    background: fixed;
+    
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
+    border: 2px solid black;
+    max-height: 315px;
 }
 
 
@@ -464,7 +451,3 @@
      padding-top: 50px;
 }
 
-.carousel-fade .carousel-item-next.carousel-item-left, .carousel-fade .carousel-item-prev.carousel-item-right, .carousel-fade .carousel-item.active {
-    z-index: 1;
-    opacity: 1;
-}
