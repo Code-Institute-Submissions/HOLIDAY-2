@@ -36,11 +36,11 @@
 	<div class="row cardContainer">
 
 		<div id="carouselExampleControls" class="carousel slide cardminiContainer carousel-fade " data-ride="carousel">
-        <div class="cardImage"> 
-					<h1 id="firstHeading" class="firstHeading">Lake District</h1>
-				</div>
-			<div class="carousel-inner"> 
-				
+			<div class="cardImage">
+				<h1 id="firstHeading" class="firstHeading">Lake District</h1>
+			</div>
+			<div class="carousel-inner">
+
 				<div class="carousel-item active">
 					<img src="assets/images/wildmaps/lakeDistrict/lake1.jpg" class="d-block cardImage" alt="...">
     </div>
@@ -62,8 +62,9 @@
 							<span class="carousel-control-next-icon" aria-hidden="true"></span>
 							<span class="sr-only">Next</span>
 						</a>
+						<button onclick="initMap({ lat: 54.458065, lng: -3.064270 })" class="showMapButton"><a class="buttonMapLink" href="#wildlifeMapSection">SHOW ON MAP</a></button>
 					</div>
-                    
+
 
 
 					<!-- YORKSHIRE DALES SLIDESHOW -->
@@ -94,15 +95,16 @@
 										<span class="carousel-control-next-icon" aria-hidden="true"></span>
 										<span class="sr-only">Next</span>
 									</a>
+									<button onclick="initMap({ lat: 54.196270, lng: -2.163206 })" class="showMapButton"><a class="buttonMapLink" href="#wildlifeMapSection">SHOW ON MAP</a></button>
 								</div>
 
 								<!-- CAIRNGORMS -->
 
 								<div id="carouselExampleControls3"
 									class="carousel slide cardminiContainer carousel-fade " data-ride="carousel">
-                                    <div class="cardImage">
-												<h1 id="firstHeading" class="firstHeading">Cairngorms</h1>
-											</div>
+									<div class="cardImage">
+										<h1 id="firstHeading" class="firstHeading">Cairngorms</h1>
+									</div>
 									<div class="carousel-inner">
 										<div class="carousel-item active">
 											<img src="assets/images/wildmaps/cairngorms/cairn1.jpg" class="d-block cardImage" alt="...">
@@ -125,16 +127,18 @@
 													<span class="carousel-control-next-icon" aria-hidden="true"></span>
 													<span class="sr-only">Next</span>
 												</a>
+												<button onclick="initMap({ lat: 57.003131, lng: -3.547580 })" class="showMapButton"><a class="buttonMapLink" href="#wildlifeMapSection">SHOW ON MAP</a></button>
 											</div>
 
 											<!-- BROADS -->
 
 											<div id="carouselExampleControls4"
 												class="carousel slide cardminiContainer carousel-fade "
-												data-ride="carousel"><div class="cardImage">
-															<h1 id="firstHeading" class="firstHeading">The Broads
-															</h1>
-														</div>
+												data-ride="carousel">
+												<div class="cardImage">
+													<h1 id="firstHeading" class="firstHeading">The Broads
+													</h1>
+												</div>
 												<div class="carousel-inner">
 													<div class="carousel-item active">
 														<img src="assets/images/wildmaps/broads/broads1.jpg" class="d-block cardImage" alt="...">
@@ -144,7 +148,7 @@
     </div>
 															<div class="carousel-item">
 																<img src="assets/images/wildmaps/broads/broads4.jpg" class="d-block cardImage" alt="...">
-    </div>    
+    </div>
 
 															</div>
 															<a class="carousel-control-prev"
@@ -159,10 +163,10 @@
 																<span class="carousel-control-next-icon" aria-hidden="true"></span>
 																<span class="sr-only">Next</span>
 															</a>
-														</div> 
-  
+															<button onclick="initMap({ lat: 52.610484, lng: 1.631813 })" class="showMapButton"><a class="buttonMapLink" href="#wildlifeMapSection">SHOW ON MAP</a></button>
+														</div>
 													</div>
-<button onclick="initMap({ lat: 54.458065, lng: -3.064270 })">click me</button> 
+
 													<div class="pagedivider">
 														<hr class="divider-page">
 													</div>
@@ -173,7 +177,8 @@
 																<div class="opaque-overlay"></div>
 																<div class="row">
 																	<div class="col-12">
-																		<h3 class="wildlifeMap-heading">
+																		<h3 class="wildlifeMap-heading"
+																			id="wildlifeMapSection">
 																			Popular Locations
 																		</h3>
 																	</div>
@@ -202,7 +207,7 @@
 														integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
 														crossorigin="anonymous">
 													</script>
-													<script src="newmaps-wild.js"></script> 
+													<script src="newmaps-wild.js"></script>
 													<script async defer
 														src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAZd_dMeXGkmX_S2FGyWde5L-K6Sp_sGPU&callback=initMap">
 													</script>

@@ -151,9 +151,6 @@ function initMap() {
         'conservation of the Broads is incredibly important to the biodiversity of the UK. In fact it is Britain’s largest protected wetland.' +
         '<p class="contentStringText2">Attribution: The Broads National Park, <a href="https://www.visitthebroads.co.uk/discover-the-broads/about-the-broads" target="_blank">https://www.visitthebroads.co.uk/discover-the-broads/about-the-broads</a></p>' +
         '<p class="contentStringText2">Photo Credit: Broads Authority, <a href="https://www.broads-authority.gov.uk/news/photo-gallery" target="_blank">https://www.broads-authority.gov.uk/news/photo-gallery</a></p>' +
-        '<div class="contentStringImageContainer"><img src="assets/images/wildmaps/broads/broads1.jpg" class="contentStringImage">' +
-        '<img src="assets/images/wildmaps/broads/broads2.jpg" class="contentStringImage"><img src="assets/images/wildmaps/broads/broads3.jpg" class="contentStringImage">' +
-        '<img src="assets/images/wildmaps/broads/broads4.jpg" class="contentStringImage"></div>'
     '</div>' +
         '</div>';
 

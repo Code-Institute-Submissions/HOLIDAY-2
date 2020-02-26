@@ -52,27 +52,6 @@
     -webkit-text-stroke: 1px white;
 }
 
-/* WINTERHIDEAWAY TITLE CARD */
-
-.logo-winterHideaway {
-    background: url("assets/images/winter2.jpg") fixed;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-.title-winterHideaway {
-    font-family: 'Patua One', cursive;
-    font-weight: 200;
-    font-size: 10vw;
-    text-align: center;
-    padding: 10% 10%;
-    color: black;
-    text-shadow: 4px 4px 20px #000;
-}
-
 /* CITYBREAK TITLE CARD */
 
 .logo-cityBreak {
@@ -136,16 +115,6 @@
     padding: 0;
 }
 
-.winter {
-    background: url("assets/images/winter.jpg") ;
-    max-height: 25vh;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
 .city {
     background: url("assets/images/city.jpg") ;
     max-height: 25vh;
@@ -182,8 +151,7 @@
     margin: 0;
 }
 
-.h-summer,
-.h-winter   {
+.h-summer {
     -webkit-text-stroke: 1px white;
     position: absolute;
     color: black;
@@ -207,7 +175,6 @@
 }
 
 .menuItem-overlay-summer,
-.menuItem-overlay-winter,
 .menuItem-overlay-city,
 .menuItem-overlay-camping {
     z-index: -2;
@@ -221,9 +188,7 @@
 .summer:hover .menuItem-overlay-summer {
     z-index: 1;
 }
-.winter:hover .menuItem-overlay-winter {
-    z-index: 1;
-}
+
 .city:hover .menuItem-overlay-city {
     z-index: 1;
 }
@@ -234,14 +199,6 @@
 .pageLinks {
     width: 100%;
     height: 25vh;
-    background-color: transparent;
-    position: absolute;
-    z-index: 2;
-}
-
-.pageLinks-contact {
-    width: 100%;
-    height: 10vh;
     background-color: transparent;
     position: absolute;
     z-index: 2;
@@ -374,16 +331,6 @@
     padding: 0;
 }
 
-.mapContainerWinter {
-    width: 100vw;
-    background: url(assets/images/mapbackground/winterBackground.jpg) fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
 .opaque-overlay {
     position: absolute;
     top: 0;
@@ -451,3 +398,26 @@ max-height: 470px;
      padding-top: 50px;
 }
 
+
+.showMapButton {
+    background-color: #4a4a4f;
+    width: 100%;
+    font-size: 20px;
+    margin: 0;
+    font-family: 'Patua One', cursive;
+    padding: 5px 0;
+    border: 2px solid black;
+}
+
+a.buttonMapLink {
+    color: #212529;
+    width: 100%;
+    text-decoration: none;
+    background-color: #4a4a4f;
+    transition: color .2s ease-in-out;
+    
+}
+
+.buttonMapLink:hover {
+    color: black;
+}
