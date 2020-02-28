@@ -64,13 +64,21 @@ The credit is given where needed in the marker text boxes of the locations when 
 Vinaros photos
 
 http://www.catalonia-valencia.com/vinaros-spain-travel-guide.html
+
 Lake District Photos
+
 https://www.lakedistrict.gov.uk/visiting/webcams-videos-and-photos/freephotos
+
 Broads Photos
+
 https://www.broads-authority.gov.uk/news/photo-gallery
+
 Cairngorms Photos
+
 https://cairngorms.co.uk/photo-posts/map/
+
 Yorkshire Dales Photos by ANDY KAY
+
 https://photos.yorkshiredales.org.uk/
 
 Pixabay: I collected a few photos from here but none of them require credit:
