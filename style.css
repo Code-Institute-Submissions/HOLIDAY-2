@@ -47,30 +47,9 @@
     font-weight: 200;
     font-size: 10vw;
     text-align: center;
-    padding: 10% 10%;
+    padding: 10% 5%;
     color: black;
     -webkit-text-stroke: 1px white;
-}
-
-/* CITYBREAK TITLE CARD */
-
-.logo-cityBreak {
-    background: url("assets/images/city.jpg") fixed;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-}
-.title-cityBreak {
-    font-family: 'Patua One', cursive;
-    font-weight: 200;
-    font-size: 10vw;
-    text-align: center;
-    padding: 10% 10%;
-    color: black;
-    text-shadow: 4px 4px 20px #000;
 }
 
 /* WILDLIFEESCAPE TITLE CARD */
@@ -98,26 +77,16 @@
 
 .menuItem {
     text-decoration: none;
-    height: 25vh;
+    height: 50vh;
     left: 0;
     margin: 0;
     padding: 0;
-    max-height: 25vh;
+    max-height: 50vh;
 }
 
 .summer {
     background: url("assets/images/summer.jpg") ;
-    max-height: 25vh;
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
-.city {
-    background: url("assets/images/city.jpg") ;
-    max-height: 25vh;
+    max-height: 50vh;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,7 +96,7 @@
 
 .camping {
     background: url("assets/images/camping.jpg") ;
-    max-height: 25vh;
+    max-height: 50vh;
     background-position: bottom;
     background-repeat: no-repeat;
     background-size: cover;
@@ -152,17 +121,16 @@
 }
 
 .h-summer {
-    -webkit-text-stroke: 1px white;
+    -webkit-text-stroke: 1px black;
     position: absolute;
-    color: black;
-    text-shadow: 4px 4px 10px #000;
+    color: white;
+    text-shadow: 4px 4px 20px white;
     padding-left: 15px;
     padding-top: 10px;
     font-size: 6vw;
     font-family: 'Patua One', cursive;
 }
 
-.h-city,
 .h-camping {
     -webkit-text-stroke: 1px black;
     position: absolute;
@@ -175,7 +143,6 @@
 }
 
 .menuItem-overlay-summer,
-.menuItem-overlay-city,
 .menuItem-overlay-camping {
     z-index: -2;
     top: 0;
@@ -189,16 +156,13 @@
     z-index: 1;
 }
 
-.city:hover .menuItem-overlay-city {
-    z-index: 1;
-}
 .camping:hover .menuItem-overlay-camping {
     z-index: 1;
 }
 
 .pageLinks {
     width: 100%;
-    height: 25vh;
+    height: 33vh;
     background-color: transparent;
     position: absolute;
     z-index: 2;
@@ -311,16 +275,6 @@
     padding: 0;
 }
 
-.mapContainerCity {
-    width: 100vw;
-    background: url(assets/images/mapbackground/cityBackground.jpg) fixed;
-    background-position: bottom;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin: 0;
-    padding: 0;
-}
-
 .mapContainerHot {
     width: 100vw;
     background: url(assets/images/mapbackground/hotBackground.jpg) fixed;
@@ -366,14 +320,15 @@
     .cardminiContainer {
         width: 55%;
         margin-left: auto;
-        margin-right: auto; }
-        .carousel-inner {
-    max-height: 470px;}
+        margin-right: auto; 
+        }
+    .carousel-inner {
+        max-height: 470px;
+        }
     .cardImage {
-max-height: 470px;
-    }
-    }
-}
+        max-height: 470px;
+    }}
+
 .carousel-inner {
     max-height: 315px;
 }
@@ -384,7 +339,6 @@ max-height: 470px;
 }
 
 .cardImage {
-    
     background-position: bottom;
     background-repeat: no-repeat;
     width: 100%;
@@ -412,6 +366,7 @@ max-height: 470px;
 a.buttonMapLink {
     color: #212529;
     width: 100%;
+
     text-decoration: none;
     background-color: #4a4a4f;
     transition: color .2s ease-in-out;
@@ -420,4 +375,60 @@ a.buttonMapLink {
 
 .buttonMapLink:hover {
     color: black;
+}
+
+
+
+/* NAV BAR */
+
+.navBar {
+    position: fixed;
+    background: transparent;
+    z-index: 5;
+    padding: 10px;
+    margin: 0;
+    top: 0;
+    left: 0;
+    
+}
+
+.navMenu {
+    list-style: none;
+      padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.navLink {
+    text-decoration: none;
+    color: black;
+      padding: 0;
+    margin: 0;
+}
+
+.navList {
+    background-color: white;
+    border: 2px solid black;
+      padding: 0;
+    margin: 0;
+    text-decoration: none;
+    transition: background-color .2s ease-in-out;
+    box-shadow: 1px 1px 5px black;
+}
+
+.navText {
+    padding: 5px;
+    margin: 0;
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+    color: black;
+    transition: color .2s ease-in-out;
+}
+
+.navText:hover {
+    color: white;
+}
+
+.navList:hover {
+    background-color: #4a4a4f;
 }

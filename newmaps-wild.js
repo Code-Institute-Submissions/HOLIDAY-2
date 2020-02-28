@@ -1,11 +1,11 @@
 function initMap(location) {
-
+    var selectedLocation = location;
     var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 4,
         center: { lat: 54.458065, lng: -3.064270 }
     });
 
-    var selectedLocation = location;
+
 
 
     var marker = new google.maps.Marker({
@@ -68,7 +68,7 @@ function initMap(location) {
         '</div>' +
         '<h1 id="firstHeading" class="firstHeading">Cairngorms</h1>' +
         '<div id="bodyContent">' +
-        '<p class="contentStringText">he Cairngorms is part of an international family of National Parks ' +
+        '<p class="contentStringText">The Cairngorms is part of an international family of National Parks ' +
         'and is the largest in the UK, at 4,528 sq km (1,748 sq miles). ' +
         '49 per cent of the park has been recognised as being of international importance for nature,' +
         'and is protected by European Law. There are 19 Areas of Conservation, 12 Special Protection' +
@@ -98,10 +98,7 @@ function initMap(location) {
         'conservation of the Broads is incredibly important to the biodiversity of the UK. In fact it is Britain’s largest protected wetland.' +
         '<p class="contentStringText2">Attribution: The Broads National Park, <a href="https://www.visitthebroads.co.uk/discover-the-broads/about-the-broads" target="_blank">https://www.visitthebroads.co.uk/discover-the-broads/about-the-broads</a></p>' +
         '<p class="contentStringText2">Photo Credit: Broads Authority, <a href="https://www.broads-authority.gov.uk/news/photo-gallery" target="_blank">https://www.broads-authority.gov.uk/news/photo-gallery</a></p>' +
-        '<div class="contentStringImageContainer"><img src="assets/images/wildmaps/broads/broads1.jpg" class="contentStringImage">' +
-        '<img src="assets/images/wildmaps/broads/broads2.jpg" class="contentStringImage"><img src="assets/images/wildmaps/broads/broads3.jpg" class="contentStringImage">' +
-        '<img src="assets/images/wildmaps/broads/broads4.jpg" class="contentStringImage"></div>'
-    '</div>' +
+        '</div>' +
         '</div>';
 
     var infowindow4 = new google.maps.InfoWindow({
